@@ -98,7 +98,7 @@ control.get("/users", function(req, res) {
 					res.status(200).json(appData);
 				}
 			});
-			console.log(query.sql);
+			// console.log(query.sql);
 			connection.release();
 		}
 	});
